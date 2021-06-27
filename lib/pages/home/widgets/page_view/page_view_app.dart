@@ -10,9 +10,13 @@ class PageViewApp extends StatefulWidget {
   final GestureDragUpdateCallback onPanUpdate;
   final bool showMenu;
 
-  const PageViewApp(
-      {Key key, this.top, this.onChanged, this.onPanUpdate, this.showMenu})
-      : super(key: key);
+  const PageViewApp({
+    Key key,
+    this.top,
+    this.onChanged,
+    this.onPanUpdate,
+    this.showMenu,
+  }) : super(key: key);
 
   @override
   _PageViewAppState createState() => _PageViewAppState();
@@ -24,18 +28,25 @@ class _PageViewAppState extends State<PageViewApp> {
   @override
   void initState() {
     super.initState();
-    _tween = Tween<double>(begin: 150.0, end: 0.0);
+    _tween = Tween<double>(
+      begin: 150.0,
+      end: 0.0,
+    );
   }
 
   @override
   Widget build(BuildContext context) {
     return TweenAnimationBuilder<double>(
         tween: _tween,
-        duration: Duration(milliseconds: 300),
+        duration: Duration(
+          milliseconds: 300,
+        ),
         curve: Curves.easeOutExpo,
         builder: (context, value, child) {
           return AnimatedPositioned(
-            duration: Duration(milliseconds: 250),
+            duration: Duration(
+              milliseconds: 250,
+            ),
             curve: Curves.easeOut,
             top: widget.top,
             height: MediaQuery.of(context).size.height * .45,

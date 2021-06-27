@@ -4,7 +4,11 @@ class MyAppBar extends StatelessWidget {
   final bool showMenu;
   final VoidCallback onTap;
 
-  const MyAppBar({Key key, this.showMenu, this.onTap}) : super(key: key);
+  const MyAppBar({
+    Key key,
+    this.showMenu,
+    this.onTap,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

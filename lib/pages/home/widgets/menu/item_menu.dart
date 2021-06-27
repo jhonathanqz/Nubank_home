@@ -4,7 +4,11 @@ class ItemMenu extends StatelessWidget {
   final IconData icon;
   final String text;
 
-  const ItemMenu({Key key, this.icon, this.text}) : super(key: key);
+  const ItemMenu({
+    Key key,
+    this.icon,
+    this.text,
+  }) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -35,11 +39,16 @@ class ItemMenu extends StatelessWidget {
                 ),
                 Text(
                   text,
-                  style: TextStyle(fontSize: 12),
+                  style: TextStyle(
+                    fontSize: 12,
+                  ),
                 ),
               ],
             ),
-            Icon(Icons.chevron_right, size: 16,)
+            Icon(
+              Icons.chevron_right,
+              size: 16,
+            )
           ],
         ),
         onPressed: () {},

@@ -19,8 +19,11 @@ class SplashPageState extends State<SplashPage> {
       () {
         Navigator.pushReplacement(
           context,
-          PageRouteBuilder(pageBuilder: (BuildContext context,
-              Animation animation, Animation secondaryAnimation) {
+          PageRouteBuilder(pageBuilder: (
+            BuildContext context,
+            Animation animation,
+            Animation secondaryAnimation,
+          ) {
             return HomePage();
           }),
         );

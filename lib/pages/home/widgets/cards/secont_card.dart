@@ -38,8 +38,10 @@ class _SecondCardState extends State<SecondCard>
                             ),
                             Text(
                               'Conta',
-                              style:
-                                  TextStyle(color: Colors.grey, fontSize: 13),
+                              style: TextStyle(
+                                color: Colors.grey,
+                                fontSize: 13,
+                              ),
                             ),
                           ],
                         ),
@@ -60,8 +62,11 @@ class _SecondCardState extends State<SecondCard>
                     ),
                   ),
                   Padding(
-                    padding:
-                        const EdgeInsets.only(left: 20, top: 20, bottom: 20),
+                    padding: const EdgeInsets.only(
+                      left: 20,
+                      top: 20,
+                      bottom: 20,
+                    ),
                     child: SizedBox(
                       width: double.infinity,
                       child: Column(
@@ -120,7 +125,10 @@ class _SecondCardState extends State<SecondCard>
                     Flexible(
                       child: Text(
                         'Compra mais recente em Super Mercado no valor de R\$ 150,00 sexta ',
-                        style: TextStyle(color: Colors.black, fontSize: 13),
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 13,
+                        ),
                       ),
                     ),
                     Icon(

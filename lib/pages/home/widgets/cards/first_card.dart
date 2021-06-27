@@ -30,8 +30,10 @@ class FirstCard extends StatelessWidget {
                               ),
                               Text(
                                 'Cartão de Crédito',
-                                style:
-                                    TextStyle(color: Colors.grey, fontSize: 13),
+                                style: TextStyle(
+                                  color: Colors.grey,
+                                  fontSize: 13,
+                                ),
                               ),
                             ],
                           ),
@@ -48,18 +50,21 @@ class FirstCard extends StatelessWidget {
                                   'FATURA ATUAL',
                                   textAlign: TextAlign.start,
                                   style: TextStyle(
-                                      color: Colors.teal,
-                                      fontSize: 13,
-                                      fontWeight: FontWeight.bold),
+                                    color: Colors.teal,
+                                    fontSize: 13,
+                                    fontWeight: FontWeight.bold,
+                                  ),
                                 ),
                                 Text.rich(
                                   TextSpan(
                                     text: 'R\$ ',
                                     children: [
                                       TextSpan(
-                                          text: '218',
-                                          style: TextStyle(
-                                              fontWeight: FontWeight.bold)),
+                                        text: '218',
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
                                       TextSpan(text: ',77'),
                                     ],
                                   ),
@@ -74,10 +79,12 @@ class FirstCard extends StatelessWidget {
                                     text: 'Limite disponível',
                                     children: [
                                       TextSpan(
-                                          text: ' R\$ 2.200,95',
-                                          style: TextStyle(
-                                              color: Colors.green,
-                                              fontWeight: FontWeight.bold)),
+                                        text: ' R\$ 2.200,95',
+                                        style: TextStyle(
+                                          color: Colors.green,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
                                     ],
                                   ),
                                   textAlign: TextAlign.start,
@@ -98,7 +105,11 @@ class FirstCard extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.only(
-                        top: 12, bottom: 12, left: 10, right: 15),
+                      top: 12,
+                      bottom: 12,
+                      left: 10,
+                      right: 15,
+                    ),
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(5),
                       child: Container(
@@ -126,7 +137,8 @@ class FirstCard extends StatelessWidget {
                         ),
                         width: 7,
                         decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(5)),
+                          borderRadius: BorderRadius.circular(5),
+                        ),
                       ),
                     ),
                   ),
@@ -152,7 +164,10 @@ class FirstCard extends StatelessWidget {
                     Flexible(
                       child: Text(
                         'Compra mais recente em Super Mercado no valor de R\$ 30,00 sexta ',
-                        style: TextStyle(color: Colors.black, fontSize: 13),
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 13,
+                        ),
                       ),
                     ),
                     Icon(

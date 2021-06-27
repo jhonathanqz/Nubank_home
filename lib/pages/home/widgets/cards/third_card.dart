@@ -31,7 +31,10 @@ class _ThirdCardState extends State<ThirdCard> {
               ),
               Text(
                 'Acumule pontos que nunca expiram e troque por passagens aéreas ou serviços que você realmente usa.',
-                style: TextStyle(color: Colors.grey[700], fontSize: 16),
+                style: TextStyle(
+                  color: Colors.grey[700],
+                  fontSize: 16,
+                ),
                 textAlign: TextAlign.center,
               ),
             ],
@@ -40,8 +43,12 @@ class _ThirdCardState extends State<ThirdCard> {
             height: 50,
             width: double.infinity,
             decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(3),
-                border: Border.all(width: 0.7, color: Colors.purple[800])),
+              borderRadius: BorderRadius.circular(3),
+              border: Border.all(
+                width: 0.7,
+                color: Colors.purple[800],
+              ),
+            ),
             child: RaisedButton(
               onHighlightChanged: (pressed) {
                 setState(() {
@@ -50,13 +57,17 @@ class _ThirdCardState extends State<ThirdCard> {
               },
               child: Text(
                 'ATIVE O SEU REWARDS',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 14,
+                ),
               ),
               highlightColor: Colors.purple[800],
               disabledTextColor: Colors.white,
               textColor: _buttomPressed ? Colors.white : Colors.purple[800],
               shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(3)),
+                borderRadius: BorderRadius.circular(3),
+              ),
               color: Colors.transparent,
               elevation: 0,
               disabledElevation: 0,
