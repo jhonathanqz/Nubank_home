@@ -1,16 +1,26 @@
-# nubank_home
+<br>
+<center>
+<p align="center">
+  <h1> Nubank Home Design 🟪</h1>
+</p></center>
 
-A new Flutter project.
+## 👁‍🗨 Tecnologias
 
-## Getting Started
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-This project is a starting point for a Flutter application.
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
 
-A few resources to get you started if this is your first Flutter project:
+## 💻 Projeto
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+O projeto Nubank Home Design, foi desenvolvido para aperfeiçoar a experiêcnia de desenvolvimento e tentar replicar o design "antigo" da Nubank.
+<br><br>
+## ▶️ Como executar
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Clone o repositório
+- Abra o terminal no diretório do projeto e execute `flutter pub get`
+- Inicie seu app com `flutter run`
+</br></br>
+---
+<br>
+Este projeto foi desenvolvido para aperfeiçoar as técnicas de programação e também tentar o desafio de clonar o design "antigo" do Nubank.
