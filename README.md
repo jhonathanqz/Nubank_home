@@ -17,7 +17,7 @@ O projeto Nubank Home Design, foi desenvolvido para aperfeiçoar a experiêcnia 
 
 ## 📱 Screenshots
 <div>
-  <img src="https://github.com/jhonathanqz/Nubank_home/tree/master/screenshots/home1.jpg" width="600px" style="max-width:100%;" alt="imagem do projeto">
+  <img src="https://github.com/jhonathanqz/Nubank_home/blob/master/screenshots/home1.jpg" width="600px" style="max-width:100%;" alt="imagem do projeto">
 </div>
 
 <br><br>
